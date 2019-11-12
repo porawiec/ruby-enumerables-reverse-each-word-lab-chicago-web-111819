@@ -3,8 +3,8 @@ def reverse_each_word(sentence)
   words_array = sentence.split
   words_array.collect do |x| reversed_words.push(x.reverse)
     end
-    p reversed_words
-    p reversed_words.join
+
+  reversed_words.join(" ")
 
 #  yield("A #{element1} and #{element2} sandwich")
  
