@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
   word_array = sentence
-  p word_array.split!
+  p word_array.split
   p word_array
   
 
