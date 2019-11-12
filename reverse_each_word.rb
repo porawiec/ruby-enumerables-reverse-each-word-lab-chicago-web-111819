@@ -1,6 +1,7 @@
 def reverse_each_word(sentence)
-  words_reversed = sentence.split
-  words_reversed
+  reversed_words = []
+  words_array = sentence.split
+  words_array.collect { |x| reversed_words.push(x;re)
   
 
 #  yield("A #{element1} and #{element2} sandwich")
