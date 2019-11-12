@@ -1,4 +1,8 @@
 def reverse_each_word(sentence)
+  word_array = []
+  word_array.push(sentence.split)
+  
+  
 
   yield("A #{element1} and #{element2} sandwich")
  
